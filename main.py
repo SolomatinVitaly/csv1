@@ -12,7 +12,7 @@ def send_simple_message():
 		"https://api.mailgun.net/v3/YOUR_DOMAIN_NAME/messages",
 		auth=("api", "4c6fcb5a0046484d621ab001cbb23ad7-8ed21946-d34b16f7"),
 		data={"from": "Excited User <mailgun@YOUR_DOMAIN_NAME>",
-			"to": ["vitgvit@yandex.ua", "vitaliksolomatin1@gmail.com"],
+			"to": ["email", "email"],
 			"subject": "Hello",
 			"text": "Testing some Mailgun awesomness!"})
 
